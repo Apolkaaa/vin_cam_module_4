@@ -1,25 +1,34 @@
+* {
+  box-sizing: border-box;
+}
 body {
-  background-color: aqua;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  position: relative;
+  overflow-x: hidden;
+  font-family: 'NeutralFace', 'Cousine';
 }
-p:nth-of-type(1) {
-  font-family: 'NeutralFace';
-  font-size: 8vw;
-}
-p:nth-of-type(2) {
+.main_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   font-family: 'Cousine';
   font-weight: 400;
   font-style: normal;
   font-size: 1.4vw;
 }
-p:nth-of-type(3) {
-  font-family: 'Cousine';
-  font-weight: 400;
-  font-style: italic;
-  font-size: 1.4vw;
+.main_menu a {
+  color: #222;
+  text-decoration: none;
+  transition: color ease 0.2s;
 }
-p:nth-of-type(4) {
-  font-family: 'Cousine';
-  font-weight: 700;
-  font-style: bold;
-  font-size: 1.4vw;
+.main_menu a.active,
+.main_menu a.active:hover {
+  color: #db2195;
+}
+.main_menu a:hover {
+  color: #777;
+  text-decoration: none;
 }
