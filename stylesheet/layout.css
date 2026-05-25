@@ -23,9 +23,3 @@ p:nth-of-type(4) {
   font-style: bold;
   font-size: 1.4vw;
 }
-p:nth-of-type(5) {
-  font-family: 'Cousine';
-  font-weight: 700;
-  font-style: bold italic;
-  font-size: 1.4vw;
-}
