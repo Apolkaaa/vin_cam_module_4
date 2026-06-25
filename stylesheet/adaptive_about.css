@@ -1,0 +1,220 @@
+@media (max-width: 393px) {
+  .s_about {
+    background-color: #fbf9f5;
+    width: 100%;
+  }
+  .about_head {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 34vw;
+  }
+  .about_head img {
+    width: 100%;
+    height: 64.6vw;
+    object-fit: cover;
+    display: block;
+  }
+  .about_head h1 {
+    display: none;
+  }
+  .about_text_image {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 10.2vw 3.8vw 10.2vw 3.8vw;
+    overflow: visible;
+  }
+  .about_text_image img {
+    width: 100%;
+    height: 69vw;
+  }
+  .about_desktop_image {
+    display: none;
+  }
+  .about_blocks {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10.2vw;
+    overflow: visible;
+    padding-bottom: 0;
+  }
+  .about_text_block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3.8vw;
+  }
+  .about_text_block .p_404 {
+    font-size: 4.6vw;
+    line-height: 110%;
+  }
+  .about_text_block .p_normal {
+    font-size: 3.4vw;
+    line-height: 120%;
+  }
+  .about_mobile_image {
+    display: block;
+    width: 100%;
+    height: 58vw;
+    object-fit: cover;
+  }
+  .about_contacts {
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+    margin-top: 1vw;
+  }
+  .about_contacts img {
+    width: 5.4vw;
+    height: 5.4vw;
+  }
+  .about_page {
+    background-color: #fbf9f5;
+    margin-top: 0;
+  }
+  .about_page .main_menu {
+    --mobile-menu-offset: 17.8vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    padding: var(--mobile-menu-offset) 3.8vw 10.2vw 3.8vw;
+    border-bottom: 0.3vw #200a05 solid;
+    background-color: #fbf9f5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow: visible;
+    transition: transform 0.25s ease;
+  }
+  .about_page .main_menu.hidden {
+    transform: translateY(-100%);
+  }
+  .about_page .main_menu_links {
+    display: none;
+  }
+  .about_page .main_logo_link {
+    display: none;
+  }
+  .about_page .main_menu::after {
+    content: 'О НАС';
+    position: absolute;
+    left: 50%;
+    top: calc(var(--mobile-menu-offset) + 3.15vw);
+    transform: translate(-50%, -50%);
+    font-family: 'Cousine';
+    font-size: 4.6vw;
+    color: #200a05;
+    text-transform: uppercase;
+    white-space: nowrap;
+    pointer-events: none;
+  }
+
+  .about_page .burger_button {
+    display: flex;
+    width: 7vw;
+    height: 6.3vw;
+    border: none;
+    padding: 0;
+    background: transparent;
+    background-color: transparent;
+    appearance: none;
+    -webkit-appearance: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1002;
+    transition: opacity 0.25s ease;
+  }
+  .about_page .burger_button:hover,
+  .about_page .burger_button:active,
+  .about_page .burger_button:focus {
+    background: transparent;
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+  }
+  .about_page .burger_icon {
+    width: 7vw;
+    height: auto;
+    display: block;
+  }
+  .about_page .main_menu.is-open .burger_button {
+    opacity: 0;
+    pointer-events: none;
+  }
+  .about_page .main_menu_icons {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .about_page .shopping_bag {
+    width: 6.3vw;
+    height: 6.3vw;
+  }
+  .about_page .personal_account {
+    display: none;
+  }
+  .about_page .mobile_menu {
+    display: flex;
+    position: fixed;
+    top: var(--mobile-menu-offset);
+    left: 0;
+    min-height: 37.4vw;
+    background-color: #fbf9f5;
+    border-radius: 0 5.1vw 5.1vw 0;
+    box-shadow: 0 0 6.3vw #200a0515;
+    padding: 5vw 5vw 5vw 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4vw;
+    z-index: 1001;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(-100%);
+    transition:
+      opacity 0.35s ease,
+      transform 0.35s ease;
+  }
+  .about_page .main_menu.is-open .mobile_menu {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateX(0);
+  }
+  .about_page .mobile_menu a {
+    font-family: 'Cousine';
+    font-size: 4vw;
+    color: #200a05;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 12.2vw;
+  }
+  .about_page .mobile_menu_back {
+    position: absolute;
+    top: 7.4vw;
+    left: 7.4vw;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  .about_page .back_arrow_icon {
+    width: 1.8vw;
+    height: auto;
+    display: block;
+    margin-top: -1.8vw;
+  }
+  .about_page .mobile_account {
+    width: 6.3vw;
+    height: 6.3vw;
+  }
+}

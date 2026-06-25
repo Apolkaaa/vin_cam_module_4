@@ -1,5 +1,13 @@
 @import 'reset.css';
 @import 'fonts.css';
-@import 'layout.css';
-@import 'adaptive.css';
+@import 'layout_index.css';
+@import 'layout_catalog.css';
+@import 'layout_404.css';
+@import 'layout_about.css';
+@import 'layout_inspiration.css';
+@import 'adaptive_index.css';
+@import 'adaptive_catalog.css';
+@import 'adaptive_404.css';
+@import 'adaptive_about.css';
+@import 'adaptive_inspiration.css';
 @import 'animation.css';

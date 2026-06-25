@@ -1,0 +1,133 @@
+.p_small {
+  font-family: 'Cousine';
+  font-style: normal;
+  font-size: 0.8vw;
+  color: #200a05;
+  text-transform: uppercase;
+}
+.catalog_page {
+  margin-top: 19.8vw;
+  width: 100%;
+  background-color: #fbf9f5;
+}
+.h1_filters {
+  padding: 0 2.64vw 0 2.64vw;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-between;
+  width: 100%;
+}
+.h1_filters .h1 {
+  width: 30.5vw;
+}
+.filters {
+  display: flex;
+  flex-direction: row;
+  gap: 0.65vw;
+}
+.filters div {
+  padding: 0.65vw 1.32vw 0.55vw 1.32vw;
+  background-color: #fbf9f5;
+  border-radius: 1.39vw;
+  border: 0.132vw solid #200a05;
+  transition: background-color ease 0.2s;
+  align-items: center;
+  margin-bottom: 1vw;
+}
+.filters div:hover {
+  background-color: #cee1fa;
+}
+.catalog_line img:nth-of-type(1) {
+  width: 30.8vw;
+  height: 18.5vw;
+}
+.c_s_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2.65vw;
+  padding-bottom: 2.65vw;
+}
+.catalog_line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 2.65vw 0 2.65vw;
+}
+.c_s_2 .catalog_line:nth-of-type(1) {
+  margin-top: 1.65vw;
+}
+.c_s_2 .catalog_line:nth-of-type(4) {
+  justify-content: flex-start;
+  gap: 1.1vw;
+}
+.product_discription {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vw;
+}
+.product_card {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+.product_card div {
+  display: flex;
+  flex-direction: column;
+}
+.add_icon {
+  width: 1.8vw;
+  height: 1.8vw;
+  position: absolute;
+  margin-top: 1vw;
+  margin-left: 28vw;
+  cursor: pointer;
+  transform: transform 0.4 ease;
+}
+.add_icon:hover {
+  transform: scale(1.05);
+}
+.shopping_bag {
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+}
+.shopping_bag.is-changing {
+  opacity: 0;
+  transform: scale(0.85);
+}
+.product_card.is-hidden {
+  display: none;
+}
+.catalog_line.is-hidden {
+  display: none;
+}
+.filters div {
+  cursor: pointer;
+}
+.filters div.is-active {
+  background-color: #cee1fa;
+}
+.catalog_line.is-filtered {
+  justify-content: flex-start;
+  gap: 1.1vw;
+}
+.product_card.is-hidden {
+  display: none;
+}
+.catalog_line.is-hidden {
+  display: none;
+}
+.filters div {
+  cursor: pointer;
+}
+.filters div.is-active {
+  background-color: #cee1fa;
+}
+.catalog_line.is-filtered {
+  justify-content: flex-start;
+  gap: 1.1vw;
+}
+.product_card.is-hidden {
+  display: none;
+}

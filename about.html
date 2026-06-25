@@ -10,12 +10,180 @@
     <meta property="og:title" content="вновь" />
     <meta property="og:title" content="website" />
   </head>
-  <body>
+  <body class="about_page">
     <nav class="main_menu">
-      <a href="catalog.html">Каталог</a>
-      <a href="index.html">Главная страницы</a>
-      <a href="about.html" class="active">О нас</a>
-      <a href="inspiration.html">Вдохновение</a>
+      <button class="burger_button" type="button" aria-label="Открыть меню">
+        <img class="burger_icon" src="./images/burger_icon.svg" alt="" />
+      </button>
+      <a class="main_logo_link" href="index.html">
+        <img
+          class="icon_main"
+          src="./images/icon_main.svg"
+          alt="Главная страница"
+        />
+      </a>
+      <div class="main_menu_links">
+        <a href="about.html">О НАС</a>
+        <a href="catalog.html">КАТАЛОГ</a>
+        <a href="inspiration.html">ВДОХНОВЕНИЕ</a>
+      </div>
+      <div class="main_menu_icons">
+        <a href="404.html">
+          <img
+            class="shopping_bag"
+            src="./images/shopping_bag.svg"
+            alt="Корзина"
+          />
+        </a>
+        <a href="404.html">
+          <img
+            class="personal_account"
+            src="./images/personal_account.svg"
+            alt="Личный кабинет"
+          />
+        </a>
+      </div>
+      <div class="mobile_menu">
+        <button
+          class="mobile_menu_back"
+          type="button"
+          aria-label="Закрыть меню"
+        >
+          <img class="back_arrow_icon" src="./images/back_icon.svg" alt="" />
+        </button>
+        <a href="about.html">О НАС</a>
+        <a href="catalog.html">КАТАЛОГ</a>
+        <a href="inspiration.html">ВДОХНОВЕНИЕ</a>
+        <a href="404.html">
+          <img
+            class="mobile_account"
+            src="./images/personal_account.svg"
+            alt="Личный кабинет"
+          />
+        </a>
+      </div>
     </nav>
+    <section class="s_about">
+      <div class="about_head">
+        <img src="./images/head_about.png" alt="" />
+        <h1>о нас</h1>
+      </div>
+      <div class="about_text_image">
+        <img
+          class="about_desktop_image"
+          src="./images/image_about_1.png"
+          alt=""
+        />
+        <div class="about_blocks">
+          <div class="about_text_block">
+            <p class="p_404">Кто мы?</p>
+            <p class="p_normal">
+              Vitage camera – это молодой бренд продажи&nbsp;винтажных мыльных
+              камер, полароидов, портативных принтеров для&nbsp;печати
+              и&nbsp;аксессуаров к технике.
+            </p>
+          </div>
+          <div class="about_text_block">
+            <p class="p_404">Наша миссия</p>
+            <p class="p_normal">
+              Наша команда стремится популизировать поиск прекрасного в жизни
+              через объектив с особой историей и настроением и&nbsp;объединить
+              ценителей этого дела.
+            </p>
+          </div>
+          <img
+            class="about_mobile_image"
+            src="./images/image_about_1.png"
+            alt=""
+          />
+          <div class="about_text_block">
+            <p class="p_404">Как родилась идея?</p>
+            <p class="p_normal">
+              Однажды прогуливаясь с командой возле моря и&nbsp;как обычно
+              фотографируя пейзаж, нам пришла идея о создании сообщества людей,
+              которые видят этот мир с особой теплотой или зернистостью:)
+            </p>
+          </div>
+          <div class="about_text_block">
+            <p class="p_404">Что еще?</p>
+            <p class="p_normal">
+              Бренд также занимается поддержкой выставок современных фотографов,
+              организовывает тусовки для вовлеченных поклонников.
+            </p>
+            <p class="p_normal">
+              Всю информацию об этом можно найти
+              у&nbsp;нас&nbsp;в&nbsp;соцсетях.
+            </p>
+            <div class="about_contacts">
+              <a href="404.html"><img src="./images/inst.svg" alt="" /></a>
+              <a href="404.html"><img src="./images/tg.svg" alt="" /></a>
+            </div>
+          </div>
+          <img
+            class="about_mobile_image"
+            src="./images/image_about_2.png"
+            alt=""
+          />
+        </div>
+        <img
+          class="about_desktop_image"
+          src="./images/image_about_2.png"
+          alt=""
+        />
+      </div>
+    </section>
+    <div class="line"></div>
+    <section class="s_5">
+      <div class="footer">
+        <div class="full_form">
+          <h2 class="p_404">Узнавайте первым о поступлениях</h2>
+          <form class="email_form" id="emailForm">
+            <input
+              class="email_input"
+              type="email"
+              name="email"
+              placeholder="your-email@yandex.ru"
+              required
+            />
+            <button class="email_button" type="submit">ПОДПИСАТЬСЯ</button>
+          </form>
+        </div>
+        <div class="navigation">
+          <div>
+            <a class="p_normal" href="about.html">О нас</a>
+            <a class="p_normal" href="catalog.html">Каталог</a>
+            <a class="p_normal" href="inspiration.html">Вдохновение</a>
+          </div>
+          <div>
+            <a class="p_normal" href="404.html">Сохраненное</a>
+            <a class="p_normal" href="404.html">Корзина</a>
+            <a class="p_normal" href="404.html">Личный кабинет</a>
+          </div>
+          <div>
+            <a class="p_normal" href="404.html">Условия возврата и гарантии</a>
+            <a class="p_normal" href="404.html">Политика конфиденциальности</a>
+            <a class="p_normal" href="404.html">Оферта</a>
+          </div>
+        </div>
+      </div>
+      <div class="contacts">
+        <a class="p_normal" href="tel:+7(111)-111-11-11">+7(111)-111-11-11</a>
+        <a class="p_normal" href="404.html">vin.cam.care@yandex.ru</a>
+        <a class="p_normal" href="404.html">Москва, Мичуринский проспект, 78</a>
+        <div>
+          <a href="404.html"><img src="./images/inst.svg" alt="" /></a>
+          <a href="404.html"><img src="./images/tg.svg" alt="" /></a>
+        </div>
+      </div>
+    </section>
+    <div class="line"></div>
+    <section class="s_2 s_2_footer">
+      <div class="running_line">
+        <p class="p_normal">Мастерская ваших воспоминаний</p>
+        <img class="small_icon" src="./images/small_icon.svg" alt="" />
+        <p class="p_normal">Винтажный магазин фотокамер</p>
+        <img class="small_icon" src="./images/small_icon.svg" alt="" />
+      </div>
+    </section>
   </body>
 </html>

@@ -1,0 +1,321 @@
+@media (max-width: 393px) {
+  body {
+    overflow-x: hidden;
+  }
+  .icon_index_page {
+    height: 43vw;
+  }
+  .p_bold_italic {
+    font-size: 4.1vw;
+    color: #200a05;
+  }
+  .p_404 {
+    font-size: 4.6vw;
+  }
+  h1 {
+    font-size: 6.3vw;
+    color: #200a05;
+  }
+  .p_normal {
+    font-size: 3.4vw;
+    color: #200a05;
+    line-height: 120%;
+  }
+  h2 {
+    font-size: 4.6vw;
+    color: #200a05;
+  }
+  .s_1_botton,
+  .s_4_botton {
+    width: auto;
+    gap: 2.6vw;
+    padding: 3vw 5vw 3vw 5vw;
+    border-radius: 5.1vw;
+    border: 0.3vw #200a05 solid;
+  }
+  .arrow_to {
+    width: 1.8vw;
+    height: 3vw;
+  }
+  .main_menu {
+    --mobile-menu-offset: 17.8vw;
+    margin-top: 0;
+    top: var(--mobile-menu-offset);
+    left: 0;
+    height: auto;
+    width: 100%;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 15.4vw 1fr 65.4vw;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    overflow-x: hidden;
+    transition: transform 0.25s ease;
+  }
+  .main_menu_links {
+    display: none;
+  }
+  .main_menu.hidden {
+    transform: translateY(calc(-100% - var(--mobile-menu-offset)));
+  }
+  .personal_account {
+    display: none;
+  }
+  .burger_button {
+    display: flex;
+    border: none;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1002;
+    transition: opacity 0.25s ease;
+    background: transparent;
+    background-color: transparent;
+    appearance: none;
+    -webkit-appearance: none;
+    box-shadow: none;
+    outline: none;
+  }
+
+  .burger_button:hover,
+  .burger_button:active,
+  .burger_button:focus {
+    background: transparent;
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+  }
+  .burger_icon {
+    width: 7vw;
+    height: auto;
+    display: block;
+  }
+  .main_menu.is-open .burger_button {
+    opacity: 0;
+    pointer-events: none;
+  }
+  .main_logo_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 69.2vw;
+  }
+  .icon_main {
+    width: 38vw;
+    height: auto;
+  }
+  .main_menu_icons {
+    width: 20.4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .shopping_bag {
+    width: 6.3vw;
+    height: 6.3vw;
+  }
+  .mobile_menu {
+    display: flex;
+    position: fixed;
+    top: 10vw;
+    min-height: 37.4vw;
+    background-color: #fbf9f5;
+    border-radius: 0 5.1vw 5.1vw 0;
+    box-shadow: 0 0 6.3vw #200a0515;
+    padding: 5vw 5vw 5vw 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4vw;
+    z-index: 1001;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(-100%);
+    transition:
+      opacity 0.35s ease,
+      transform 0.35s ease;
+  }
+  .main_menu.is-open .mobile_menu {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateX(0);
+  }
+  .mobile_menu a {
+    font-family: 'Cousine';
+    font-size: 4vw;
+    color: #200a05;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 12.2vw;
+  }
+  .mobile_menu_back {
+    position: absolute;
+    top: 7.4vw;
+    left: 7.4vw;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  .back_arrow_icon {
+    width: 1.8vw;
+    height: 6vw;
+    height: auto;
+    display: block;
+    margin-top: -1.8vw;
+  }
+  .s_1_text_botton_logo {
+    width: 90%;
+  }
+  .s_1_text_botton {
+    gap: 10.2vw;
+    margin-top: -9vw;
+  }
+  .s_1_text {
+    gap: 4vw;
+  }
+  .s_2 {
+    padding: 3vw 5vw 3vw 5vw;
+  }
+  .small_icon {
+    width: 6.2vw;
+    height: 4vw;
+  }
+  .line {
+    height: 0.3vw;
+  }
+  .s_3 {
+    display: flex;
+    flex-direction: column;
+    gap: 15.3vw;
+    padding: 20.4vw 0;
+    justify-content: baseline;
+    height: auto;
+  }
+  .gallery_text {
+    width: 100%;
+    gap: 10.2vw;
+    padding: 0 3.8vw 0 3.8vw;
+  }
+  #s2_text_block_1 {
+    width: 100%;
+    gap: 3.8vw;
+  }
+  #s2_text_block_2 {
+    width: 100%;
+    gap: 3.8vw;
+  }
+  .gallery_images {
+    width: 100%;
+    height: 45.8vw;
+    overflow: hidden;
+  }
+  .image_track {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3.8vw;
+  }
+  .gallery_images .image_track img {
+    width: 57.04vw;
+    height: 36.64vw;
+    object-fit: cover;
+    display: block;
+    flex: 0 0 auto;
+  }
+  .gallery_images .image_track img.is-center-position {
+    width: 71.3vw;
+    height: 45.8vw;
+  }
+  .s_4 {
+    padding: 20.4vw 3.8vw;
+    gap: 15.3vw;
+  }
+  .s4_full_texts {
+    flex-direction: column;
+  }
+  #text_block_1,
+  #text_block_2,
+  #text_block_3 {
+    width: 100%;
+  }
+  #s4_text_block_images_2 {
+    width: 100%;
+    gap: 10.2vw;
+  }
+  .s4_images img {
+    height: 25.45vw;
+    width: 33.9vw;
+  }
+  .s4_text_block_images {
+    gap: 10.2vw;
+  }
+  .s4_full_texts {
+    gap: 15.3vw;
+  }
+  .s4_line {
+    height: 0.3vw;
+    width: 100%;
+  }
+  .s_1_text div:nth-of-type(2) {
+    gap: 4vw;
+  }
+  .s4_buttons {
+    flex-direction: column;
+    gap: 4vw;
+    align-items: center;
+  }
+  .s4_buttons a:nth-of-type(1) {
+    width: auto;
+    border-radius: 9.1vw;
+    border: 0.1vw #200a05 solid;
+  }
+  .s4_buttons a:nth-of-type(2) {
+    width: 57.3vw;
+    border-radius: 5.5vw;
+    border: 0.1vw #200a05 solid;
+  }
+  .navigation {
+    flex-direction: column;
+    gap: 10.2vw;
+  }
+  .s_5 {
+    flex-direction: column;
+    gap: 12.2vw;
+    align-items: flex-start;
+    padding: 20.4vw 3.8vw 10.2vw 3.8vw;
+  }
+  .navigation div {
+    gap: 4vw;
+  }
+  .contacts {
+    gap: 4vw;
+  }
+  .email_input {
+    font-size: 3.6vw;
+    padding: 3vw 5vw 3vw 5vw;
+    border-radius: 5.1vw;
+    border: 0.3vw #200a05 solid;
+    width: auto;
+  }
+  .full_form {
+    gap: 5.1vw;
+  }
+  .email_button {
+    font-size: 3.6vw;
+    padding: 3vw 5vw 3vw 5vw;
+    border-radius: 5.1vw;
+    border: 0.3vw #200a05 solid;
+  }
+  .footer {
+    gap: 10.2vw;
+  }
+  .contacts img {
+    width: 5.4vw;
+    height: 5.4vw;
+  }
+  .contacts div {
+    gap: 4vw;
+  }
+}

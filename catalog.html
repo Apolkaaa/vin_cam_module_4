@@ -10,12 +10,259 @@
     <meta property="og:title" content="вновь" />
     <meta property="og:title" content="website" />
   </head>
-  <body>
+  <body class="catalog_page">
     <nav class="main_menu">
-      <a href="catalog.html" class="active">Каталог</a>
-      <a href="index.html">Главная страницы</a>
-      <a href="about.html">О нас</a>
-      <a href="inspiration.html">Вдохновение</a>
+      <button class="burger_button" type="button" aria-label="Открыть меню">
+        <img class="burger_icon" src="./images/burger_icon.svg" alt="" />
+      </button>
+      <a class="main_logo_link" href="index.html">
+        <img
+          class="icon_main"
+          src="./images/icon_main.svg"
+          alt="Главная страница"
+        />
+      </a>
+      <div class="main_menu_links">
+        <a href="about.html">О НАС</a>
+        <a href="catalog.html">КАТАЛОГ</a>
+        <a href="inspiration.html">ВДОХНОВЕНИЕ</a>
+      </div>
+      <div class="main_menu_icons">
+        <a href="404.html">
+          <img
+            class="shopping_bag"
+            src="./images/shopping_bag.svg"
+            alt="Корзина"
+          />
+        </a>
+        <a href="404.html">
+          <img
+            class="personal_account"
+            src="./images/personal_account.svg"
+            alt="Личный кабинет"
+          />
+        </a>
+      </div>
+      <div class="mobile_menu">
+        <button
+          class="mobile_menu_back"
+          type="button"
+          aria-label="Закрыть меню"
+        >
+          <img class="back_arrow_icon" src="./images/back_icon.svg" alt="" />
+        </button>
+        <a href="about.html">О НАС</a>
+        <a href="catalog.html">КАТАЛОГ</a>
+        <a href="inspiration.html">ВДОХНОВЕНИЕ</a>
+        <a href="404.html">
+          <img
+            class="mobile_account"
+            src="./images/personal_account.svg"
+            alt="Личный кабинет"
+          />
+        </a>
+      </div>
     </nav>
+    <section class="c_s_1">
+      <div class="h1_filters">
+        <h1>каталог</h1>
+        <div class="filters">
+          <div class="filter_button filter_all is-active">
+            <p class="p_normal">все</p>
+          </div>
+          <div class="filter_button filter_soap">
+            <p class="p_normal">Мыльницы</p>
+          </div>
+          <div class="filter_button filter_film">
+            <p class="p_normal">пленочные фотоаппараты</p>
+          </div>
+          <div class="filter_button filter_accessories">
+            <p class="p_normal">аксессуары</p>
+          </div>
+          <div class="filter_button filter_merch">
+            <p class="p_normal">мерч</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="c_s_2">
+      <div class="catalog_line">
+        <div class="product_card">
+          <div>
+            <img src="./images/product_1.png" alt="" />
+            <a href="./404.html"></a>
+            <a href="./images/add_icon.svg"></a>
+            <img class="add_icon" src="./images/add_icon.svg" alt="" />
+          </div>
+          <div class="product_discription">
+            <p class="p_normal">Nikon Coolpix L25</p>
+            <p class="p_small">15 840 руб.</p>
+          </div>
+        </div>
+        <div class="product_card">
+          <div>
+            <img src="./images/product_2.png" alt="" />
+            <img class="add_icon" src="./images/add_icon.svg" alt="" />
+          </div>
+          <div class="product_discription">
+            <p class="p_normal">practica vision 700</p>
+            <p class="p_small">4 250 руб.</p>
+          </div>
+        </div>
+        <div class="product_card">
+          <div>
+            <img src="./images/product_3.png" alt="" />
+            <img class="add_icon" src="./images/add_icon.svg" alt="" />
+          </div>
+          <div class="product_discription">
+            <p class="p_normal">Canon ixus 285 HS</p>
+            <p class="p_small">24 650 руб.</p>
+          </div>
+        </div>
+      </div>
+      <div class="catalog_line">
+        <div class="product_card">
+          <div>
+            <img src="./images/product_4.png" alt="" />
+            <img class="add_icon" src="./images/add_icon.svg" alt="" />
+          </div>
+          <div class="product_discription">
+            <p class="p_normal">Sony Cyber-shot DSC-WX350</p>
+            <p class="p_small">32 880 руб.</p>
+          </div>
+        </div>
+        <div class="product_card">
+          <div>
+            <img src="./images/product_5.png" alt="" />
+            <img class="add_icon" src="./images/add_icon.svg" alt="" />
+          </div>
+          <div class="product_discription">
+            <p class="p_normal">Sony Cyber-shot DSC-RX0</p>
+            <p class="p_small">42 240 руб.</p>
+          </div>
+        </div>
+        <div class="product_card">
+          <div>
+            <img src="./images/product_6.png" alt="" />
+            <img class="add_icon" src="./images/add_icon.svg" alt="" />
+          </div>
+          <div class="product_discription">
+            <p class="p_normal">Canon PowerShot G7 X Mark III</p>
+            <p class="p_small">128 290 руб.</p>
+          </div>
+        </div>
+      </div>
+      <div class="catalog_line">
+        <div class="product_card">
+          <div>
+            <img src="./images/product_7.png" alt="" />
+            <img class="add_icon" src="./images/add_icon.svg" alt="" />
+          </div>
+          <div class="product_discription">
+            <p class="p_normal">кепка из плотного хлопка «Vintage camera»</p>
+            <p class="p_small">820 руб.</p>
+          </div>
+        </div>
+        <div class="product_card">
+          <div>
+            <img src="./images/product_8.png" alt="" />
+            <img class="add_icon" src="./images/add_icon.svg" alt="" />
+          </div>
+          <div class="product_discription">
+            <p class="p_normal">
+              Обвес ручной работы с натуральными минералами
+            </p>
+            <p class="p_small">1 280 руб.</p>
+          </div>
+        </div>
+        <div class="product_card">
+          <div>
+            <img src="./images/product_9.png" alt="" />
+            <img class="add_icon" src="./images/add_icon.svg" alt="" />
+          </div>
+          <div class="product_discription">
+            <p class="p_normal">
+              конверт для хранения фотографий «Vintage camera»
+            </p>
+            <p class="p_small">650 руб.</p>
+          </div>
+        </div>
+      </div>
+      <div class="catalog_line">
+        <div class="product_card">
+          <div>
+            <img src="./images/product_10.png" alt="" />
+            <img class="add_icon" src="./images/add_icon.svg" alt="" />
+          </div>
+          <div class="product_discription">
+            <p class="p_normal">Держатель ручной работы с минералами</p>
+            <p class="p_small">1 450 руб.</p>
+          </div>
+        </div>
+        <div class="product_card">
+          <div>
+            <img src="./images/product_11.png" alt="" />
+            <img class="add_icon" src="./images/add_icon.svg" alt="" />
+          </div>
+          <div class="product_discription">
+            <p class="p_normal">футболка хлопковая «Vintage camera»</p>
+            <p class="p_small">2 150 руб.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="line"></div>
+    <section class="s_5">
+      <div class="footer">
+        <div class="full_form">
+          <h2 class="p_404">Узнавайте первым о поступлениях</h2>
+          <form class="email_form" id="emailForm">
+            <input
+              class="email_input"
+              type="email"
+              name="email"
+              placeholder="your-email@yandex.ru"
+              required
+            />
+            <button class="email_button" type="submit">ПОДПИСАТЬСЯ</button>
+          </form>
+        </div>
+        <div class="navigation">
+          <div>
+            <a class="p_normal" href="about.html">О нас</a>
+            <a class="p_normal" href="catalog.html">Каталог</a>
+            <a class="p_normal" href="inspiration.html">Вдохновение</a>
+          </div>
+          <div>
+            <a class="p_normal" href="404.html">Сохраненное</a>
+            <a class="p_normal" href="404.html">Корзина</a>
+            <a class="p_normal" href="404.html">Личный кабинет</a>
+          </div>
+          <div>
+            <a class="p_normal" href="404.html">Условия возврата и гарантии</a>
+            <a class="p_normal" href="404.html">Политика конфиденциальности</a>
+            <a class="p_normal" href="404.html">Оферта</a>
+          </div>
+        </div>
+      </div>
+      <div class="contacts">
+        <a class="p_normal" href="tel:+7(111)-111-11-11">+7(111)-111-11-11</a>
+        <a class="p_normal" href="404.html">vin.cam.care@yandex.ru</a>
+        <a class="p_normal" href="404.html">Москва, Мичуринский проспект, 78</a>
+        <div>
+          <a href="404.html"><img src="./images/inst.svg" alt="" /></a>
+          <a href="404.html"><img src="./images/tg.svg" alt="" /></a>
+        </div>
+      </div>
+    </section>
+    <div class="line"></div>
+    <section class="s_2 s_2_footer">
+      <div class="running_line">
+        <p class="p_normal">Мастерская ваших воспоминаний</p>
+        <img class="small_icon" src="./images/small_icon.svg" alt="" />
+        <p class="p_normal">Винтажный магазин фотокамер</p>
+        <img class="small_icon" src="./images/small_icon.svg" alt="" />
+      </div>
+    </section>
   </body>
 </html>

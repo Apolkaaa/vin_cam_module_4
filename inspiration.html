@@ -11,11 +11,297 @@
     <meta property="og:title" content="website" />
   </head>
   <body>
-    <nav class="main_menu">
-      <a href="catalog.html">Каталог</a>
-      <a href="index.html">Главная страницы</a>
-      <a href="about.html">О нас</a>
-      <a href="inspiration.html" class="active">Вдохновение</a>
-    </nav>
+    <div class="inspiration_page">
+      <nav class="main_menu">
+        <button class="burger_button" type="button" aria-label="Открыть меню">
+          <img class="burger_icon" src="./images/burger_icon.svg" alt="" />
+        </button>
+        <a class="main_logo_link" href="index.html">
+          <img
+            class="icon_main"
+            src="./images/icon_main.svg"
+            alt="Главная страница"
+          />
+        </a>
+        <div class="main_menu_links">
+          <a href="about.html">О НАС</a>
+          <a href="catalog.html">КАТАЛОГ</a>
+          <a href="inspiration.html">ВДОХНОВЕНИЕ</a>
+        </div>
+        <div class="main_menu_icons">
+          <a href="404.html">
+            <img
+              class="shopping_bag"
+              src="./images/shopping_bag.svg"
+              alt="Корзина"
+            />
+          </a>
+          <a href="404.html">
+            <img
+              class="personal_account"
+              src="./images/personal_account.svg"
+              alt="Личный кабинет"
+            />
+          </a>
+        </div>
+        <div class="mobile_menu">
+          <button
+            class="mobile_menu_back"
+            type="button"
+            aria-label="Закрыть меню"
+          >
+            <img class="back_arrow_icon" src="./images/back_icon.svg" alt="" />
+          </button>
+          <a href="about.html">О НАС</a>
+          <a href="catalog.html">КАТАЛОГ</a>
+          <a href="inspiration.html">ВДОХНОВЕНИЕ</a>
+          <a href="404.html">
+            <img
+              class="mobile_account"
+              src="./images/personal_account.svg"
+              alt="Личный кабинет"
+            />
+          </a>
+        </div>
+      </nav>
+      <section class="inspiration_head">
+        <h1>вдохновение</h1>
+        <div>
+          <p class="p_normal">
+            Собираем ваши фотографии для вдохновения пользователей и понимания
+            работы фотоаппаратов.
+          </p>
+          <p class="p_small">
+            Нажмите на фото, чтобы узнать,
+            на&nbsp;какой&nbsp;фотоаппарат&nbsp;сделан&nbsp;снимок.
+          </p>
+        </div>
+      </section>
+      <section class="s_insp_photos">
+        <div class="photo_line_1">
+          <img
+            class="i_1 insp_photo"
+            src="./images/insp_1.png"
+            alt=""
+            data-title="PRAKTICA ZOOM 700 AFD"
+            data-text="Пленочный фотоаппарат. Идеальный выбор для&nbsp;путешествий и семейных моментов."
+            data-link="./catalog.html"
+          />
+          <div class="insp_l_1_1">
+            <div class="insp_l_1_2">
+              <img
+                class="i_2 insp_photo"
+                src="./images/insp_2.png"
+                alt=""
+                data-title="Canon PowerShot G7 X Mark III"
+                data-text="Цифровой фотоаппарат для ваших невероятно атмосферных, теплых и качественных фото."
+                data-link="./catalog.html"
+              />
+              <img
+                class="i_3 insp_photo"
+                src="./images/insp_3.png"
+                alt=""
+                data-title="Nikon Coolpix L25"
+                data-text="Цифровой фотоаппарат, который погрузит ваши воспоминания в теплую и ностальгическую атмосферу."
+                data-link="./catalog.html"
+              />
+              <img
+                class="i_4 insp_photo"
+                src="./images/insp_4.png"
+                alt=""
+                data-title="Sony Cyber-shot DSC-RX0"
+                data-text="Цифровая малышка, которая в любой момент поможет не&nbsp;только свять чудесный кадр, но&nbsp;и&nbsp;снять видео."
+                data-link="./catalog.html"
+              />
+              <img
+                class="i_5 insp_photo"
+                src="./images/insp_5.png"
+                alt=""
+                data-title="PRAKTICA ZOOM 700 AFD"
+                data-text="Пленочный фотоаппарат. Идеальный выбор для&nbsp;путешествий и семейных моментов."
+                data-link="./catalog.html"
+              />
+            </div>
+            <div class="insp_l_1_3">
+              <img
+                class="i_6 insp_photo"
+                src="./images/insp_6.png"
+                alt=""
+                data-title="Canon ixus 285 HS"
+                data-text="Цифровой фотоаппарат со спокойным, нежным и&nbsp;меланхоличным настроением."
+                data-link="./catalog.html"
+              />
+              <img
+                class="i_7 insp_photo"
+                src="./images/insp_7.png"
+                alt=""
+                data-title="PRAKTICA ZOOM 700 AFD"
+                data-text="Пленочный фотоаппарат. Идеальный выбор для&nbsp;путешествий и семейных моментов."
+                data-link="./catalog.html"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="photo_line_2">
+          <div class="insp_l_2_1">
+            <div class="insp_l_2_2">
+              <img
+                class="i_8 insp_photo"
+                src="./images/insp_8.png"
+                alt=""
+                data-title="Sony Cyber-shot DSC-RX0"
+                data-text="Цифровая малышка, которая в любой момент поможет не&nbsp;только свять чудесный кадр, но&nbsp;и&nbsp;снять видео."
+                data-link="./catalog.html"
+              />
+              <img
+                class="i_9 insp_photo"
+                src="./images/insp_9.png"
+                alt=""
+                data-title="Sony Cyber-shot DSC-RX0"
+                data-text="Цифровая малышка, которая в любой момент поможет не&nbsp;только свять чудесный кадр, но&nbsp;и&nbsp;снять видео."
+                data-link="./catalog.html"
+              />
+            </div>
+            <div class="insp_l_2_3">
+              <img
+                class="i_10 insp_photo"
+                src="./images/insp_10.png"
+                alt=""
+                data-title="PRAKTICA ZOOM 700 AFD"
+                data-text="Пленочный фотоаппарат. Идеальный выбор для&nbsp;путешествий и семейных моментов."
+                data-link="./catalog.html"
+              />
+              <div class="insp_l_2_4">
+                <img
+                  class="i_11 insp_photo"
+                  src="./images/insp_11.png"
+                  alt=""
+                  data-title="PRAKTICA ZOOM 700 AFD"
+                  data-text="Пленочный фотоаппарат. Идеальный выбор для&nbsp;путешествий и семейных моментов."
+                  data-link="./catalog.html"
+                />
+                <img
+                  class="i_12 insp_photo"
+                  src="./images/insp_12.png"
+                  alt=""
+                  data-title="Nikon Coolpix L25"
+                  data-text="Цифровой фотоаппарат, который погрузит ваши воспоминания в теплую и ностальгическую атмосферу."
+                  data-link="./catalog.html"
+                />
+              </div>
+              <img
+                class="i_13 insp_photo"
+                src="./images/insp_13.png"
+                alt=""
+                data-title="PRAKTICA ZOOM 700 AFD"
+                data-text="Пленочный фотоаппарат. Идеальный выбор для&nbsp;путешествий и семейных моментов."
+                data-link="./catalog.html"
+              />
+              <img
+                class="i_14 insp_photo"
+                src="./images/insp_14.png"
+                alt=""
+                data-title="Nikon Coolpix L25"
+                data-text="Цифровой фотоаппарат, который погрузит ваши воспоминания в теплую и ностальгическую атмосферу."
+                data-link="./catalog.html"
+              />
+            </div>
+          </div>
+          <div class="insp_l_2_5">
+            <img
+              class="i_15 insp_photo"
+              src="./images/insp_15.png"
+              alt=""
+              data-title="PRAKTICA ZOOM 700 AFD"
+              data-text="Пленочный фотоаппарат. Идеальный выбор для&nbsp;путешествий и семейных моментов."
+              data-link="./catalog.html"
+            />
+            <div class="insp_l_2_6">
+              <img
+                class="i_16 insp_photo"
+                src="./images/insp_16.png"
+                alt=""
+                data-title="Nikon Coolpix L25"
+                data-text="Цифровой фотоаппарат, который погрузит ваши воспоминания в теплую и ностальгическую атмосферу."
+                data-link="./catalog.html"
+              />
+              <img
+                class="i_17 insp_photo"
+                src="./images/insp_17.png"
+                alt=""
+                data-title="PRAKTICA ZOOM 700 AFD"
+                data-text="Пленочный фотоаппарат. Идеальный выбор для&nbsp;путешествий и семейных моментов."
+                data-link="./catalog.html"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="line"></div>
+    <section class="s_5">
+      <div class="footer">
+        <div class="full_form">
+          <h2 class="p_404">Узнавайте первым о поступлениях</h2>
+          <form class="email_form" id="emailForm">
+            <input
+              class="email_input"
+              type="email"
+              name="email"
+              placeholder="your-email@yandex.ru"
+              required
+            />
+            <button class="email_button" type="submit">ПОДПИСАТЬСЯ</button>
+          </form>
+        </div>
+        <div class="navigation">
+          <div>
+            <a class="p_normal" href="about.html">О нас</a>
+            <a class="p_normal" href="catalog.html">Каталог</a>
+            <a class="p_normal" href="inspiration.html">Вдохновение</a>
+          </div>
+          <div>
+            <a class="p_normal" href="404.html">Сохраненное</a>
+            <a class="p_normal" href="404.html">Корзина</a>
+            <a class="p_normal" href="404.html">Личный кабинет</a>
+          </div>
+          <div>
+            <a class="p_normal" href="404.html">Условия возврата и гарантии</a>
+            <a class="p_normal" href="404.html">Политика конфиденциальности</a>
+            <a class="p_normal" href="404.html">Оферта</a>
+          </div>
+        </div>
+      </div>
+      <div class="contacts">
+        <a class="p_normal" href="tel:+7(111)-111-11-11">+7(111)-111-11-11</a>
+        <a class="p_normal" href="404.html">vin.cam.care@yandex.ru</a>
+        <a class="p_normal" href="404.html">Москва, Мичуринский проспект, 78</a>
+        <div>
+          <a href="404.html"><img src="./images/inst.svg" alt="" /></a>
+          <a href="404.html"><img src="./images/tg.svg" alt="" /></a>
+        </div>
+      </div>
+    </section>
+    <div class="line"></div>
+    <section class="s_2 s_2_footer">
+      <div class="running_line">
+        <p class="p_normal">Мастерская ваших воспоминаний</p>
+        <img class="small_icon" src="./images/small_icon.svg" alt="" />
+        <p class="p_normal">Винтажный магазин фотокамер</p>
+        <img class="small_icon" src="./images/small_icon.svg" alt="" />
+      </div>
+    </section>
+    <div class="insp_popup" id="inspPopup">
+      <div class="insp_popup_card">
+        <button class="insp_popup_close" type="button">×</button>
+        <p class="p_404 insp_popup_title"></p>
+        <p class="p_normal insp_popup_description"></p>
+        <a class="insp_popup_link" href="./catalog.html">
+          <p class="p_bold_italic">перейти к камерам</p>
+          <img class="arrow_to" src="./images/arrow_to.svg" alt="" />
+        </a>
+        <img class="insp_popup_image" src="" alt="" />
+      </div>
+    </div>
   </body>
 </html>

@@ -1,0 +1,208 @@
+.inspiration_page {
+  width: 100%;
+  background-color: #fbf9f5;
+  gap: 2.65vw;
+}
+.inspiration_head {
+  margin-top: 20vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 2.5vw 2.65vw 2.6vw;
+}
+.inspiration_head p {
+  width: 30vw;
+  text-align: end;
+}
+.inspiration_head div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.32vw;
+}
+.s_insp_photos {
+  width: 100%;
+  padding: 0 2.65vw 0 2.65vw;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5.3vw;
+}
+.i_1 {
+  width: 29.5vw;
+  height: 40.32vw;
+}
+.photo_line_1 {
+  display: flex;
+  flex-direction: row;
+  gap: 1.32vw;
+}
+.insp_l_1_1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.32vw;
+}
+.insp_l_1_2 {
+  display: flex;
+  flex-direction: row;
+  gap: 1.32vw;
+  align-items: last baseline;
+}
+.i_2 {
+  width: 13.6vw;
+  height: 17.8vw;
+}
+.i_3 {
+  width: 19vw;
+  height: 14.5vw;
+}
+.i_4 {
+  width: 14.1vw;
+  height: 10.9vw;
+}
+.i_5 {
+  width: 13.6vw;
+  height: 17.8vw;
+}
+.i_6 {
+  width: 28.5vw;
+  height: 21.2vw;
+}
+.i_7 {
+  width: 34.44vw;
+  height: 26.3vw;
+}
+.insp_l_1_3 {
+  display: flex;
+  flex-direction: row;
+  gap: 1.32vw;
+}
+.photo_line_2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: -3.8vw;
+  gap: 1.32vw;
+}
+.i_8 {
+  width: 34.44vw;
+  height: 26.3vw;
+}
+.i_9 {
+  width: 34.44vw;
+  height: 44.2vw;
+}
+.insp_l_2_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.32vw;
+}
+.insp_l_2_1 {
+  display: flex;
+  flex-direction: row;
+  gap: 1.32vw;
+}
+.i_10 {
+  width: 23.55vw;
+  height: 18vw;
+}
+.i_11 {
+  width: 14vw;
+  height: 10.5vw;
+}
+.i_12 {
+  width: 8.5vw;
+  height: 10.5vw;
+}
+.insp_l_2_3 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.32vw;
+}
+.insp_l_2_4 {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+}
+.i_13 {
+  width: 23.55vw;
+  height: 18vw;
+}
+.i_14 {
+  width: 23.55vw;
+  height: 18vw;
+}
+.i_15 {
+  width: 34.44vw;
+  height: 44.2vw;
+}
+.i_16 {
+  width: 9.6vw;
+  height: 6.5vw;
+}
+.i_17 {
+  width: 23.55vw;
+  height: 18vw;
+}
+.insp_l_2_5 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.32vw;
+  margin-top: 4.9vw;
+}
+.insp_l_2_6 {
+  display: flex;
+  flex-direction: row;
+  gap: 1.32vw;
+}
+.insp_photo {
+  cursor: pointer;
+}
+.insp_popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(251, 249, 245, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+.insp_popup.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+.insp_popup_card {
+  width: 38vw;
+  background-color: #fbf9f5;
+  border: 0.132vw solid #200a05;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  position: relative;
+}
+.insp_popup_close {
+  position: absolute;
+  top: 1vw;
+  right: 1vw;
+  background: none;
+  border: none;
+  font-size: 2vw;
+  color: #200a05;
+  cursor: pointer;
+}
+.insp_popup_link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.65vw;
+  width: fit-content;
+}
+.insp_popup_image {
+  width: 100%;
+  height: 27vw;
+  object-fit: cover;
+}
